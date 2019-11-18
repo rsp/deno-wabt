@@ -1,12 +1,19 @@
-wabt.js
-=======
+deno-wabt
+=
+
+**deno-wabt** is a port of [wabt.js](https://github.com/AssemblyScript/wabt.js) for [Deno](https://github.com/denoland/deno).
 
 **wabt.js** is a port of [WABT](https://github.com/WebAssembly/wabt) to the Web, allowing you to manipulate WebAssembly modules using a JavaScript API.
 
-[![npm](https://img.shields.io/npm/v/wabt.svg)](https://www.npmjs.com/package/wabt) [![npm](https://img.shields.io/npm/v/wabt/nightly.svg)](https://www.npmjs.com/package/wabt) [![Build Status](https://travis-ci.org/AssemblyScript/wabt.js.svg?branch=master)](https://travis-ci.org/AssemblyScript/wabt.js)
+**WABT** is WABT: The WebAssembly Binary Toolkit
+(pronounced "wabbit") is The WebAssembly Binary Toolkit, a suite of tools for WebAssembly.
+
+deno-wabt at this point is just a crazy experiment by [@rsp](https://github.com/rsp), use at your own risk!
 
 Usage
------
+-
+
+<!--
 
 ```
 $> npm install wabt
@@ -44,9 +51,12 @@ or you can use one of the [previous versions](https://github.com/AssemblyScript/
 
   Replace `VERSION` with a [specific version](https://github.com/AssemblyScript/wabt.js/releases) or omit it (not recommended in production) to use master/latest.
 
+-->
 
 API
----
+-
+
+<!--
 
 * **parseWat**(filename: `string`, buffer: `string | Uint8Array`, options?: `WasmFeatures`): `WasmModule`<br />
   Parses a wst source to a module.
@@ -124,3 +134,6 @@ API
     Reference Types ([proposal](https://github.com/WebAssembly/reference-types)).
   * **annotations**: `boolean`<br />
     Custom Annotation Syntax for the Wasm Text Format ([proposal](https://github.com/WebAssembly/annotations)).
+
+-->
+
